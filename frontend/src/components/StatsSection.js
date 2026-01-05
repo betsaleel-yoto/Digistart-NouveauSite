@@ -1,5 +1,38 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+const Counter = ({ end, suffix = '', duration = 2000, isVisible }) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if (!isVisible) return;
+
+    let startTime;
+    const animate = (timestamp) => {
+      if (!startTime) startTime = timestamp;
+      const progress = timestamp - startTime;
+      const percentage = Math.min(progress / duration, 1);
+      
+      // Easing function for smooth animation
+      const easeOutQuart = 1 - Math.pow(1 - percentage, 4);
+      setCount(Math.floor(end * easeOutQuart));
+
+      if (progress < duration) {
+        requestAnimationFrame(animate);
+      } else {
+        setCount(end);
+      }
+    };
+
+    requestAnimationFrame(animate);
+  }, [isVisible, end, duration]);
+
+  return (
+    <span className="font-heading text-4xl sm:text-5xl font-bold text-gradient-primary">
+      {count}{suffix}
+    </span>
+  );
+};
+
 export const StatsSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
@@ -18,6 +51,7 @@ export const StatsSection = () => {
   ];
 
   useEffect(() => {
+    const currentRef = sectionRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -27,49 +61,16 @@ export const StatsSection = () => {
       { threshold: 0.2 }
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
-
-  const Counter = ({ end, suffix = '', duration = 2000 }) => {
-    const [count, setCount] = useState(0);
-
-    useEffect(() => {
-      if (!isVisible) return;
-
-      let startTime;
-      const animate = (timestamp) => {
-        if (!startTime) startTime = timestamp;
-        const progress = timestamp - startTime;
-        const percentage = Math.min(progress / duration, 1);
-        
-        // Easing function for smooth animation
-        const easeOutQuart = 1 - Math.pow(1 - percentage, 4);
-        setCount(Math.floor(end * easeOutQuart));
-
-        if (progress < duration) {
-          requestAnimationFrame(animate);
-        } else {
-          setCount(end);
-        }
-      };
-
-      requestAnimationFrame(animate);
-    }, [isVisible, end, duration]);
-
-    return (
-      <span className="font-heading text-4xl sm:text-5xl font-bold text-gradient-primary">
-        {count}{suffix}
-      </span>
-    );
-  };
 
   return (
     <section ref={sectionRef} className="py-20 lg:py-32 bg-primary text-primary-foreground relative overflow-hidden">
