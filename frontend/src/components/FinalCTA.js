@@ -44,10 +44,12 @@ export const FinalCTA = () => {
             <Button 
               size="lg"
               onClick={() => scrollToSection('tarifs')}
-              className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-7 shadow-large hover:shadow-glow transition-all duration-300 hover:scale-105 group font-semibold"
+              className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-7 shadow-large hover:shadow-glow transition-all duration-300 hover:scale-105 group font-semibold lightning-btn relative overflow-hidden"
             >
-              Commander votre solution digitale maintenant
-              <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
+              <span className="relative z-10 flex items-center">
+                Commander votre solution digitale maintenant
+                <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
+              </span>
             </Button>
           </div>
 
