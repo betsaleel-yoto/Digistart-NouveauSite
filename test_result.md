@@ -134,6 +134,9 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ PASSED - Hero section fully functional. Main heading 'Démarquez-vous' visible, both CTA buttons working ('Commander votre solution digitale' and 'Découvrir nos services'), hero image loading properly, gradient background displaying correctly."
+      - working: true
+        agent: "testing"
+        comment: "✅ UPDATED IMPROVEMENTS TESTED - Hero section responsiveness working perfectly. Desktop (1920x1080): Full text 'Captez des clients en continu' visible, image and CTAs properly sized. Tablet (768x1024): Text adapts, image scales correctly. Mobile (375x812): Shortened text 'Captez des clients.' displays correctly, floating badge visible, buttons responsive. Lightning effect working on main CTA button."
 
   - task: "Benefits Section - 4 benefit cards display"
     implemented: true
