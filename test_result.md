@@ -215,6 +215,9 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ PASSED - Pricing section fully functional. 3 pricing cards displaying correctly, all pricing titles visible (Site web haut de gamme, Applications web, Applications mobile), prices $500 and $1000 visible and properly formatted."
+      - working: true
+        agent: "testing"
+        comment: "✅ LIGHTNING EFFECTS TESTED - Pricing section popular plan (Site web haut de gamme) has lightning effect working correctly with turquoise glow animation. All pricing features and CTA buttons functional."
 
   - task: "Mobile menu - Hamburger menu functionality"
     implemented: true
