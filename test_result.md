@@ -182,6 +182,9 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ PASSED - Services section fully functional. 10+ service cards displaying, images loading properly, expandable functionality working (clicking cards shows service lists), all sector cards (IT, Mines, Logistique, Energie, BTP, etc.) rendering correctly."
+      - working: true
+        agent: "testing"
+        comment: "✅ UPDATED DETAILED SERVICES TESTED - All 10 service sectors present with complete implementation: Emoji badges (🟦, ⛏️, 🚚, ☀️, 🏗️, ⚡, 💼, 👥, 🏨, 🔧), service titles and subtitles, 'Services spécifiques' labels, 5-6 service items with checkmarks per card, images on left side, sector-specific CTA buttons '👉 Commander une solution digitale [sector]'. Lightning effects working on all 11 CTA buttons in services section."
 
   - task: "Portfolio Section - Filtering and project cards"
     implemented: true
