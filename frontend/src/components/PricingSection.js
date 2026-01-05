@@ -161,7 +161,7 @@ export const PricingSection = () => {
         {/* Bottom Note */}
         <div className="glass-strong rounded-2xl p-8 text-center max-w-3xl mx-auto scroll-reveal">
           <p className="text-lg text-foreground">
-            <span className="font-semibold">Besoin d'une solution personnalisée ?</span>
+            <span className="font-semibold">Besoin d&apos;une solution personnalisée ?</span>
             <br />
             Contactez-nous pour un devis sur mesure adapté à vos besoins spécifiques.
           </p>
