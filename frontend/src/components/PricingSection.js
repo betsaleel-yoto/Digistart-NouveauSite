@@ -146,11 +146,11 @@ export const PricingSection = () => {
                     size="lg"
                     className={`w-full ${
                       plan.popular 
-                        ? 'gradient-turquoise hover:shadow-glow' 
+                        ? 'gradient-turquoise hover:shadow-glow lightning-btn' 
                         : 'gradient-primary hover:shadow-medium'
                     } transition-all duration-300 hover:scale-105 mt-auto`}
                   >
-                    Commander maintenant
+                    <span className="relative z-10">Commander maintenant</span>
                   </Button>
                 </div>
               </div>
