@@ -266,7 +266,9 @@ export const ServicesSection = () => {
         {/* Additional Services */}
         <div className="mt-16 grid md:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
           <div className="glass-strong rounded-xl p-8 text-center hover:scale-105 transition-all duration-300 scroll-reveal">
-            <div className="text-4xl mb-4">📱</div>
+            <div className="w-16 h-16 mx-auto mb-4 rounded-xl bg-gradient-to-br from-violet-600 to-purple-500 flex items-center justify-center shadow-lg">
+              <Smartphone className="w-8 h-8 text-white" strokeWidth={2.5} />
+            </div>
             <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
               Applications mobiles professionnelles
             </h3>
@@ -282,7 +284,9 @@ export const ServicesSection = () => {
           </div>
 
           <div className="glass-strong rounded-xl p-8 text-center hover:scale-105 transition-all duration-300 scroll-reveal">
-            <div className="text-4xl mb-4">🎯</div>
+            <div className="w-16 h-16 mx-auto mb-4 rounded-xl bg-gradient-to-br from-red-600 to-orange-500 flex items-center justify-center shadow-lg">
+              <Target className="w-8 h-8 text-white" strokeWidth={2.5} />
+            </div>
             <h3 className="font-heading text-xl font-semibold text-foreground mb-2">
               Systèmes de génération de leads
             </h3>
