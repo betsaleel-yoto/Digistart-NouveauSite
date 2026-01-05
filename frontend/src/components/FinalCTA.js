@@ -27,7 +27,7 @@ export const FinalCTA = () => {
 
           {/* Heading */}
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 scroll-reveal">
-            Prêt à prendre une longueur d'avance
+            Prêt à prendre une longueur d&apos;avance
             <br />
             <span className="text-accent">sur votre marché ?</span>
           </h2>
