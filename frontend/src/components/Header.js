@@ -43,9 +43,13 @@ export const Header = () => {
           {/* Logo */}
           <button 
             onClick={() => scrollToSection('hero')}
-            className="text-2xl font-heading font-bold text-gradient-primary hover:opacity-90 transition-opacity"
+            className="flex items-center hover:opacity-90 transition-opacity"
           >
-            DigistartExpress
+            <img 
+              src="https://customer-assets.emergentagent.com/job_web-build-ask/artifacts/d7hf639s_DigistartNewLogo.png"
+              alt="DigistartExpress"
+              className="h-10 w-auto"
+            />
           </button>
 
           {/* Desktop Navigation */}
