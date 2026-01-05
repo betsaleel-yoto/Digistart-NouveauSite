@@ -213,9 +213,9 @@ export const ServicesSection = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/60 to-transparent" />
                   
-                  {/* Emoji Badge */}
-                  <div className="absolute top-4 left-4 w-16 h-16 rounded-xl bg-white/90 backdrop-blur-sm flex items-center justify-center text-3xl shadow-lg">
-                    {service.emoji}
+                  {/* Icon Badge */}
+                  <div className={`absolute top-4 left-4 w-16 h-16 rounded-xl bg-gradient-to-br ${service.iconColor} flex items-center justify-center shadow-lg`}>
+                    <service.icon className="w-8 h-8 text-white" strokeWidth={2.5} />
                   </div>
                 </div>
 
