@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import BenefitsSection from './components/BenefitsSection';
@@ -12,9 +12,13 @@ import PricingSection from './components/PricingSection';
 import TeamSection from './components/TeamSection';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
+import useScrollReveal from './hooks/useScrollReveal';
 import './App.css';
 
 function App() {
+  // Initialize scroll reveal animations
+  useScrollReveal();
+
   return (
     <div className="App scroll-smooth">
       <Header />
