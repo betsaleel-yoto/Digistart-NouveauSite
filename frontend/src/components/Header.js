@@ -48,7 +48,7 @@ export const Header = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_web-build-ask/artifacts/d7hf639s_DigistartNewLogo.png"
               alt="DigistartExpress"
-              className="h-10 w-auto"
+              className="h-12 sm:h-14 w-auto"
             />
           </button>
 
