@@ -118,7 +118,7 @@ export const MissionSection = () => {
 
               <div className="mt-8 pt-8 border-t border-border text-center">
                 <p className="text-lg font-semibold text-gradient-primary">
-                  Nous ne faisons pas juste "des simples sites web".
+                  Nous ne faisons pas juste &quot;des simples sites web&quot;.
                 </p>
                 <p className="text-muted-foreground mt-2">
                   Nous construisons des actifs digitaux stratégiques.
