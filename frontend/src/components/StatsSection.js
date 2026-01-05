@@ -101,7 +101,7 @@ export const StatsSection = () => {
             >
               <div className="mb-3">
                 {isVisible ? (
-                  <Counter end={stat.value} suffix={stat.suffix} />
+                  <Counter end={stat.value} suffix={stat.suffix} isVisible={isVisible} />
                 ) : (
                   <span className="font-heading text-4xl sm:text-5xl font-bold text-gradient-primary">
                     0{stat.suffix}
