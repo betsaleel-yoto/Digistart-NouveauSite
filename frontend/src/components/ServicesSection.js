@@ -1,6 +1,20 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { Check } from 'lucide-react';
+import { 
+  Check, 
+  Monitor, 
+  Pickaxe, 
+  Truck, 
+  Sun, 
+  HardHat, 
+  Zap, 
+  Briefcase, 
+  Users, 
+  Building2, 
+  Wrench,
+  Smartphone,
+  Target
+} from 'lucide-react';
 
 export const ServicesSection = () => {
   const scrollToSection = (id) => {
@@ -13,7 +27,8 @@ export const ServicesSection = () => {
   const services = [
     {
       id: 'it',
-      emoji: '🟦',
+      icon: Monitor,
+      iconColor: 'from-blue-500 to-cyan-500',
       title: 'IT, Digital & Services technologiques',
       image: 'https://images.unsplash.com/photo-1576272531110-2a342fe22342',
       services: [
@@ -27,7 +42,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'mines',
-      emoji: '⛏️',
+      icon: Pickaxe,
+      iconColor: 'from-orange-600 to-yellow-500',
       title: 'Mines & Industrie',
       subtitle: '(secteur à forte exigence de crédibilité)',
       image: 'https://images.unsplash.com/photo-1603516270950-26e4f5004ffd',
@@ -42,7 +58,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'logistique',
-      emoji: '🚚',
+      icon: Truck,
+      iconColor: 'from-green-600 to-emerald-500',
       title: 'Transport & Logistique',
       image: 'https://images.unsplash.com/photo-1753579167765-d88ba3719f96',
       services: [
@@ -56,7 +73,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'energie',
-      emoji: '☀️',
+      icon: Sun,
+      iconColor: 'from-yellow-500 to-orange-400',
       title: 'Énergies & Solaire',
       image: 'https://images.unsplash.com/photo-1668097613572-40b7c11c8727',
       services: [
@@ -69,7 +87,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'btp',
-      emoji: '🏗️',
+      icon: HardHat,
+      iconColor: 'from-slate-600 to-zinc-500',
       title: 'Génie civil & BTP',
       image: 'https://images.unsplash.com/photo-1650630718105-497674381f3c',
       services: [
@@ -83,7 +102,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'utilites',
-      emoji: '⚡',
+      icon: Zap,
+      iconColor: 'from-purple-600 to-pink-500',
       title: 'Énergies & Utilités',
       image: 'https://images.pexels.com/photos/4320449/pexels-photo-4320449.jpeg',
       services: [
@@ -96,7 +116,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'finance',
-      emoji: '💼',
+      icon: Briefcase,
+      iconColor: 'from-indigo-600 to-blue-500',
       title: 'Finance, Assurance & Conseil',
       image: 'https://images.unsplash.com/photo-1758518726324-62bef7c815b0',
       services: [
@@ -110,7 +131,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'rh',
-      emoji: '👥',
+      icon: Users,
+      iconColor: 'from-teal-600 to-cyan-500',
       title: 'RH & Recrutement',
       image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg',
       services: [
@@ -124,7 +146,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'hotellerie',
-      emoji: '🏨',
+      icon: Building2,
+      iconColor: 'from-rose-600 to-pink-500',
       title: 'Hôtellerie & Tourisme',
       subtitle: '(services professionnels)',
       image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945',
@@ -138,7 +161,8 @@ export const ServicesSection = () => {
     },
     {
       id: 'facility',
-      emoji: '🔧',
+      icon: Wrench,
+      iconColor: 'from-amber-600 to-orange-500',
       title: 'Services professionnels & Facility Management',
       image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
       services: [
