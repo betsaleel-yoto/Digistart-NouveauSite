@@ -82,7 +82,7 @@ export const BenefitsSection = () => {
           <Button 
             size="lg"
             onClick={() => scrollToSection('services')}
-            className="gradient-primary hover:shadow-glow transition-all duration-300 hover:scale-105"
+            className="gradient-primary hover:shadow-glow transition-all duration-300 hover:scale-105 text-white"
           >
             Commander une solution clé en main
           </Button>

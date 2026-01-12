@@ -73,7 +73,7 @@ export const StatsSection = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-20 lg:py-32 bg-primary text-primary-foreground relative overflow-hidden">
+    <section ref={sectionRef} className="py-20 lg:py-32 bg-[#0B3B79] text-primary-foreground relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-1/4 w-64 h-64 bg-accent rounded-full blur-3xl" />
@@ -83,11 +83,11 @@ export const StatsSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white">
             Pourquoi le digital est devenu
-            <span className="text-accent"> stratégique en RDC</span>
+            <span className="text-[hsl(180_70%_55%)]"> stratégique en RDC</span>
           </h2>
-          <p className="text-lg text-primary-foreground/90 leading-relaxed">
+          <p className="text-lg text-white leading-relaxed">
             Après analyse du tissu entrepreneurial congolais en 2026, nous avons constaté la répartition suivante :
           </p>
         </div>
@@ -108,7 +108,7 @@ export const StatsSection = () => {
                   </span>
                 )}
               </div>
-              <p className="text-sm text-primary-foreground/80 leading-snug">
+              <p className="text-sm text-[white] leading-snug">
                 {stat.label}
               </p>
             </div>
@@ -122,7 +122,7 @@ export const StatsSection = () => {
             <br /><br />
             Avec cette multitude d’entreprises des mêmes domaines, les clients sont très vigilants quant à quelle entreprise collaborer.
             <br />
-            <span className="text-primary font-semibold">Se différencier de la concurrence pour gagner la confiance des clients devient indispensable.</span>
+            <span className="text-[hsl(215_85%_25%)] font-semibold">Se différencier de la concurrence pour gagner la confiance des clients devient indispensable.</span>
           </p>
         </div>
       </div>

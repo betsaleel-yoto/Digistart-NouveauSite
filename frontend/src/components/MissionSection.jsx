@@ -40,7 +40,8 @@ export const MissionSection = () => {
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Face à cette réalité, notre mission est claire :
             </p>
-            <div className="bg-card border-l-4 border-primary rounded-r-lg p-6 shadow-soft mb-8">
+            <div className="bg-card border-l-4 border-[#0B3B79] rounded-r-lg p-6 shadow-[0_4px_24px_-4px_rgba(0,0,0,0.15)]
+ mb-8">
               <p className="text-lg text-foreground font-medium leading-relaxed">
                 Permettre aux entreprises opérant dans les secteurs les plus concurrentiels de RDC de se démarquer nettement, grâce à des outils digitaux premium.
               </p>
@@ -79,7 +80,7 @@ export const MissionSection = () => {
             <div className="glass-strong rounded-2xl p-8 lg:p-12 shadow-large">
               <div className="text-center mb-8">
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-full gradient-primary mb-4">
-                  <Target className="w-10 h-10 text-primary-foreground" />
+                  <Target className="w-10 h-10 text-[white]" />
                 </div>
                 <h3 className="font-heading text-2xl font-bold text-foreground mb-4">
                   Notre approche
@@ -88,8 +89,8 @@ export const MissionSection = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-3 h-3 rounded-full bg-primary" />
+                  <div className="w-8 h-8 rounded-full bg-[#E7EBF1] flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-3 h-3 rounded-full bg-[hsl(215_85%_25%)]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Pas de solutions génériques</h4>
@@ -97,8 +98,8 @@ export const MissionSection = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-3 h-3 rounded-full bg-secondary" />
+                  <div className="w-8 h-8 rounded-full bg-[#E7EBF1] flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-3 h-3 rounded-full bg-[hsl(185_75%_45%)]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Actifs digitaux stratégiques</h4>
@@ -106,8 +107,8 @@ export const MissionSection = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-3 h-3 rounded-full bg-accent" />
+                  <div className="w-8 h-8 rounded-full bg-[#E7EBF1] flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-3 h-3 rounded-full bg-[hsl(185_75%_45%)]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Performance mesurable</h4>

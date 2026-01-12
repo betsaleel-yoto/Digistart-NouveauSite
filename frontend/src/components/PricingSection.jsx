@@ -104,7 +104,7 @@ export const PricingSection = () => {
                 )}
 
                 <div className={`glass-strong rounded-2xl p-8 h-full flex flex-col shadow-large hover:shadow-glow transition-all duration-300 ${
-                  plan.popular ? 'border-2 border-primary' : 'border border-border'
+                  plan.popular ? 'border-2 border-[#0A3776]' : 'border border-border'
                 }`}>
                   {/* Icon */}
                   <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${plan.color} flex items-center justify-center mb-6`}>

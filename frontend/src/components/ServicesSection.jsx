@@ -234,7 +234,7 @@ export const ServicesSection = () => {
                   )}
 
                   {/* Services Specific Label */}
-                  <p className="text-sm font-semibold text-primary mb-3">
+                  <p className="text-sm font-semibold text-[#0A3776] mb-3">
                     Services spécifiques
                   </p>
 
@@ -242,7 +242,7 @@ export const ServicesSection = () => {
                   <ul className="space-y-2 mb-6">
                     {service.services.map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
-                        <Check className="w-4 h-4 text-secondary flex-shrink-0 mt-0.5" />
+                        <Check className="w-4 h-4 text-[#1BBBC9] flex-shrink-0 mt-0.5" />
                         <span>{item}</span>
                       </li>
                     ))}

@@ -100,11 +100,11 @@
 
 @layer base {
     * {
-        border-color: hsl(var(--border));
+        border-color: #dfdfdf;
     }
     
     body {
-        background-color: hsl(var(--background));
+        background-color: #e8e8e8;
         color: hsl(var(--foreground));
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         -webkit-font-smoothing: antialiased;

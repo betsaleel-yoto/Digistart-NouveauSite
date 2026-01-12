@@ -27,22 +27,22 @@ export const HeroSection = () => {
           <div className="text-center lg:text-left">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 glass px-3 sm:px-4 py-2 rounded-full mb-4 sm:mb-6 animate-fade-in">
-              <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-accent" />
-              <span className="text-xs sm:text-sm font-medium text-primary-foreground">Solutions Digitales Premium</span>
+              <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-[#3BDDDC]" />
+              <span className="text-xs sm:text-sm font-medium text-white">Solutions Digitales Premium</span>
             </div>
 
             {/* Main Heading - Responsive */}
-            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4 sm:mb-6 animate-fade-in-up leading-tight">
+            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 animate-fade-in-up leading-tight">
               Démarquez-vous.
               <br />
-              <span className="text-accent">Gagnez en crédibilité.</span>
+              <span className="text-[hsl(180_70%_55%)]">Gagnez en crédibilité.</span>
               <br />
               <span className="hidden sm:inline">Captez des clients en continu.</span>
               <span className="sm:hidden">Captez des clients.</span>
             </h1>
 
             {/* Description - Responsive */}
-            <p className="text-base sm:text-lg lg:text-xl text-primary-foreground/90 mb-6 sm:mb-8 leading-relaxed animate-fade-in-up delay-200 max-w-2xl mx-auto lg:mx-0">
+            <p className="text-base sm:text-lg lg:text-xl text-white mb-6 sm:mb-8 leading-relaxed animate-fade-in-up delay-200 max-w-2xl mx-auto lg:mx-0">
               Dans un marché congolais ultra concurrentiel, les entreprises qui gagnent sont celles qui inspirent confiance dès le premier contact.
             </p>
 
@@ -53,8 +53,8 @@ export const HeroSection = () => {
                 'Applications web sur mesure',
                 'Applications mobiles professionnelles'
               ].map((feature, index) => (
-                <div key={index} className="flex items-center gap-2 sm:gap-3 text-primary-foreground/90 justify-center lg:justify-start">
-                  <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-accent flex-shrink-0" />
+                <div key={index} className="flex items-center gap-2 sm:gap-3 text-white justify-center lg:justify-start">
+                  <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[hsl(180_70%_55%)] flex-shrink-0" />
                   <span className="text-sm sm:text-base lg:text-lg font-medium">{feature}</span>
                 </div>
               ))}
@@ -67,7 +67,7 @@ export const HeroSection = () => {
                 onClick={() => scrollToSection('tarifs')}
                 className="gradient-turquoise text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 hover:shadow-glow transition-all duration-300 hover:scale-105 group lightning-btn relative overflow-hidden"
               >
-                <span className="relative z-10 flex items-center justify-center">
+                <span className="relative z-10 flex items-center justify-center text-white">
                   Commander votre solution digitale
                   <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
                 </span>
@@ -76,7 +76,10 @@ export const HeroSection = () => {
                 size="lg"
                 variant="outline"
                 onClick={() => scrollToSection('services')}
-                className="text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:border-accent transition-all duration-300"
+                className="text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 border-2 border-primary-foreground/30 text-white hover:bg-primary-foreground/10 transition-all duration-300 ease-in-out
+         hover:border-[hsl(180_70%_55%)]
+         hover:bg-[#ffffff1a]
+         hover:text-[#1d2530]"
               >
                 Découvrir nos services
               </Button>

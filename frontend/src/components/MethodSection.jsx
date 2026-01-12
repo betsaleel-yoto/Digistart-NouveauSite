@@ -136,7 +136,7 @@ export const MethodSection = () => {
                   <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 hidden sm:flex items-center justify-center z-10">
                     <div className={`w-16 h-16 rounded-full border-4 border-background flex items-center justify-center transition-all duration-500 ${
                       isActive 
-                        ? 'bg-gradient-to-br from-primary to-secondary scale-110 shadow-glow' 
+                        ? 'gradient-hero scale-110 shadow-glow' 
                         : 'bg-muted scale-100'
                     }`}>
                       <span className={`font-heading text-lg font-bold transition-colors ${

@@ -38,7 +38,7 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="bg-primary text-primary-foreground relative overflow-hidden">
+    <footer className="bg-[#0B3B79] text-[white] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-secondary rounded-full blur-3xl" />
@@ -51,7 +51,7 @@ export const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
             {/* Brand Column */}
             <div className="lg:col-span-2">
-              <h3 className="text-2xl font-heading font-bold mb-4 text-accent">
+              <h3 className="text-2xl font-heading font-bold mb-4 text-[#3BDDDC]">
                 DigistartExpress
               </h3>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">

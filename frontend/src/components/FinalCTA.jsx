@@ -11,7 +11,7 @@ export const FinalCTA = () => {
   };
 
   return (
-    <section className="py-20 lg:py-32 bg-primary text-primary-foreground relative overflow-hidden">
+    <section className="py-20 lg:py-32 bg-[#0B3B79] text-[white] relative overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 left-10 w-72 h-72 bg-secondary rounded-full blur-3xl animate-float" />
@@ -29,7 +29,7 @@ export const FinalCTA = () => {
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 scroll-reveal">
             Prêt à prendre une longueur d&apos;avance
             <br />
-            <span className="text-accent">sur votre marché ?</span>
+            <span className="text-[#3BDDDC]">sur votre marché ?</span>
           </h2>
 
           {/* Description */}
@@ -46,7 +46,7 @@ export const FinalCTA = () => {
               onClick={() => scrollToSection('tarifs')}
               className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-7 shadow-large hover:shadow-glow transition-all duration-300 hover:scale-105 group font-semibold lightning-btn relative overflow-hidden"
             >
-              <span className="relative z-10 flex items-center">
+              <span className="relative z-10 flex items-center text-[#0A3776]">
                 Commander votre solution digitale maintenant
                 <ArrowRight className="ml-2 w-6 h-6 group-hover:translate-x-1 transition-transform" />
               </span>
@@ -57,15 +57,15 @@ export const FinalCTA = () => {
           <div className="mt-12 pt-12 border-t border-primary-foreground/20">
             <div className="grid sm:grid-cols-3 gap-8 text-center">
               <div>
-                <div className="text-3xl font-heading font-bold text-accent mb-2">100+</div>
+                <div className="text-3xl font-heading font-bold text-[#3BDDDC] mb-2">100+</div>
                 <div className="text-sm text-primary-foreground/80">Projets réalisés</div>
               </div>
               <div>
-                <div className="text-3xl font-heading font-bold text-accent mb-2">9</div>
+                <div className="text-3xl font-heading font-bold text-[#3BDDDC] mb-2">9</div>
                 <div className="text-sm text-primary-foreground/80">Secteurs d'expertise</div>
               </div>
               <div>
-                <div className="text-3xl font-heading font-bold text-accent mb-2">98%</div>
+                <div className="text-3xl font-heading font-bold text-[#3BDDDC] mb-2">98%</div>
                 <div className="text-sm text-primary-foreground/80">Clients satisfaits</div>
               </div>
             </div>
