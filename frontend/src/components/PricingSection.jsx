@@ -142,7 +142,7 @@ export const PricingSection = () => {
                   </ul>
 
                   {/* CTA Button */}
-                  <Button 
+                  <a href="https://wa.me/243988700603"><Button 
                     size="lg"
                     className={`w-full ${
                       plan.popular 
@@ -150,8 +150,8 @@ export const PricingSection = () => {
                         : 'gradient-primary hover:shadow-medium'
                     } transition-all duration-300 hover:scale-105 mt-auto`}
                   >
-                    <span className="relative z-10">Commander maintenant</span>
-                  </Button>
+                    <span className="relative z-10"> Commander maintenant </span>
+                  </Button></a>
                 </div>
               </div>
             );
