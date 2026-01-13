@@ -30,7 +30,7 @@ export const ServicesSection = () => {
       icon: Monitor,
       iconColor: 'from-blue-500 to-cyan-500',
       title: 'IT, Digital & Services technologiques',
-      image: 'https://images.unsplash.com/photo-1576272531110-2a342fe22342',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768298106/Itinfor_s1shag.png',
       services: [
         'Sites web corporate pour ESN & agences',
         'Portfolios techniques & pages de cas clients',
@@ -46,7 +46,7 @@ export const ServicesSection = () => {
       iconColor: 'from-orange-600 to-yellow-500',
       title: 'Mines & Industrie',
       subtitle: '(secteur à forte exigence de crédibilité)',
-      image: 'https://images.unsplash.com/photo-1603516270950-26e4f5004ffd',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768298106/Mines_zz6wuo.png',
       services: [
         'Sites web corporate miniers (image institutionnelle forte)',
         'Présentation de capacités techniques & certifications',
@@ -62,7 +62,7 @@ export const ServicesSection = () => {
       icon: Truck,
       iconColor: 'from-green-600 to-emerald-500',
       title: 'Transport & Logistique',
-      image: 'https://images.unsplash.com/photo-1753579167765-d88ba3719f96',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768298104/transport_v6z2vv.png',
       services: [
         'Sites web professionnels pour transporteurs',
         'Présentation de flotte & capacités logistiques',
@@ -91,7 +91,7 @@ export const ServicesSection = () => {
       icon: HardHat,
       iconColor: 'from-slate-600 to-zinc-500',
       title: 'Génie civil & BTP',
-      image: 'https://images.unsplash.com/photo-1650630718105-497674381f3c',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768298104/geniecivil_jb4rlv.png',
       services: [
         'Sites web corporate BTP',
         'Présentation de chantiers & références',
@@ -120,7 +120,7 @@ export const ServicesSection = () => {
       icon: Briefcase,
       iconColor: 'from-indigo-600 to-blue-500',
       title: 'Finance, Assurance & Conseil',
-      image: 'https://images.unsplash.com/photo-1758518726324-62bef7c815b0',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768298103/finance_pwdmz7.png',
       services: [
         'Sites web corporate à image institutionnelle forte',
         'Pages de présentation de services financiers',
@@ -135,7 +135,7 @@ export const ServicesSection = () => {
       icon: Users,
       iconColor: 'from-teal-600 to-cyan-500',
       title: 'RH & Recrutement',
-      image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768298105/Rh_w5c2td.png',
       services: [
         'Sites web RH & cabinets de recrutement',
         'Portails de soumission de candidatures',
@@ -165,7 +165,7 @@ export const ServicesSection = () => {
       icon: Wrench,
       iconColor: 'from-amber-600 to-orange-500',
       title: 'Services professionnels & Facility Management',
-      image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768298105/servicepro_gt9jgs.png',
       services: [
         'Sites web corporate pour entreprises de services',
         'Présentation claire des prestations',

@@ -66,7 +66,7 @@ export const Footer = () => {
                 </a>
                 <a href="mailto:contact@digistartexpress.cd" className="flex items-center gap-3 text-primary-foreground/80 hover:text-accent transition-colors">
                   <Mail className="w-5 h-5" />
-                  <span>contact@digistartexpress.cd</span>
+                  <span>contact@digistartexpress.com</span>
                 </a>
                 <div className="flex items-start gap-3 text-primary-foreground/80">
                   <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />

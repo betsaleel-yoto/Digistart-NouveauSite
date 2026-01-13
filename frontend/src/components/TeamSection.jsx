@@ -6,28 +6,28 @@ export const TeamSection = () => {
     {
       name: 'Betsaleel Yoto',
       role: 'CEO & Strategie Digitale',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768303419/Betsaleel_rj3ozi.png',
       linkedin: '#',
       email: 'jb@digistartexpress.cd'
     },
     {
-      name: 'Grace Nkulu',
+      name: 'Sarah Laurent Nkulu',
       role: 'Directrice Design & UX',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768303231/SarahLaurent_kehjnu.png',
       linkedin: '#',
       email: 'grace@digistartexpress.cd'
     },
     {
       name: 'Patrick Kabongo',
       role: 'Lead Développeur',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768303230/Patrick_ui9olm.png',
       linkedin: '#',
       email: 'patrick@digistartexpress.cd'
     },
     {
-      name: 'Sarah Ilunga',
+      name: 'Mariane Ilunga',
       role: 'Chef de Projet',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768303231/Sarah_yzci63.png',
       linkedin: '#',
       email: 'sarah@digistartexpress.cd'
     }

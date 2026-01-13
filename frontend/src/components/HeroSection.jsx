@@ -66,10 +66,10 @@ export const HeroSection = () => {
               <Button 
                 size="lg"
                 onClick={() => scrollToSection('tarifs')}
-                className="gradient-turquoise text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 hover:shadow-glow transition-all duration-300 hover:scale-105 group lightning-btn relative overflow-hidden"
+                className="gradient-turquoise text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 hover:shadow-glow transition-all duration-300 hover:scale-105 group lightning-btn relative overflow-hidden mb-[2rem]"
               >
                 <span className="relative z-10 flex items-center justify-center text-white">
-                  Commander votre solution digitale
+                  Commander votre solution
                   <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
                 </span>
               </Button>

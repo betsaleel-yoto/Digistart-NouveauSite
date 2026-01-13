@@ -25,37 +25,37 @@ export const PortfolioSection = () => {
     {
       title: 'Plateforme Corporate IT',
       category: 'it',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768300188/SiteIt_hiqloj.png',
       description: 'Site web premium pour entreprise technologique'
     },
     {
       title: 'Portail Minier Institutionnel',
       category: 'mines',
-      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768300187/SiteMines_a11bs6.png',
       description: 'Présentation de capacités et certifications'
     },
     {
       title: 'Plateforme Logistique B2B',
       category: 'logistique',
-      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768300189/SiteTransport_jzo6jx.png',
       description: 'Gestion de flotte et demandes de devis'
     },
     {
       title: 'Site Solaire Premium',
       category: 'energie',
-      image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768300186/SiteSolaire_v4ritz.png',
       description: 'Présentation de projets et simulateur'
     },
     {
       title: 'Portail BTP Corporate',
       category: 'btp',
-      image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768300185/SiteConstr_soqgrr.png',
       description: 'Showcase de chantiers et références'
     },
     {
       title: 'Application RH Digitale',
       category: 'it',
-      image: 'https://images.unsplash.com/photo-1551434678-e076c223a692',
+      image: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1768300188/SitesRH_enmdzg.png',
       description: 'Gestion de candidatures et talents'
     }
   ];

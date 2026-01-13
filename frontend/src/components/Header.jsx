@@ -46,9 +46,9 @@ export const Header = () => {
             className="flex items-center hover:opacity-90 transition-opacity"
           >
             <img 
-              src="https://customer-assets.emergentagent.com/job_web-build-ask/artifacts/d7hf639s_DigistartNewLogo.png"
+              src="https://res.cloudinary.com/dlkow85gp/image/upload/v1768295384/DigistartNewLogo-removebg-preview_spctht.png"
               alt="DigistartExpress"
-              className="h-12 sm:h-14 w-auto"
+              className="h-16 sm:h-14 w-auto"
             />
           </button>
 

@@ -11,14 +11,14 @@ export const ClientsSection = () => {
 
   // Mock client logos - in production, replace with real client logos
   const clients = [
-    { name: 'TechCorp RDC', industry: 'IT' },
-    { name: 'Mining Solutions', industry: 'Mines' },
-    { name: 'TransLog Express', industry: 'Logistique' },
-    { name: 'Solar Power Co', industry: 'Énergie' },
-    { name: 'BuildPro', industry: 'BTP' },
-    { name: 'FinanceConsult', industry: 'Finance' },
-    { name: 'HR Partners', industry: 'RH' },
-    { name: 'Luxury Hotels', industry: 'Hôtellerie' }
+    { name: 'https://res.cloudinary.com/dlkow85gp/image/upload/v1753176718/ChatGPT_Image_22_juil._2025__11_26_17-removebg-preview_sqs0dd.png', industry: 'Service aux entreprises' },
+    { name: 'https://exposolaire-rdc.com/Screenshot_20250929-102213-removebg-preview.png', industry: 'Énergie Solaire' },
+    { name: '	https://www.esperencemining.com/images/IMG-20250303-WA0005_2-removebg-preview.png', industry: 'Mines' },
+    { name: 'https://mwendogroupeinternational.com/IMG-20250807-WA0003.jpg', industry: 'Mines et Transport' },
+    { name: 'https://atlays.com/storage/2020/06/LogoAtlays-droite.png', industry: 'Ressources Humaines' },
+    { name: 'https://tpalm.be/wp-content/themes/tpalm/assets/logoTP-MaQY0XS0.png', industry: 'Construction' },
+    { name: 'https://f0c7e7ba.delivery.rocketcdn.me/wp-content/uploads/2024/05/logo_mif_full-color.png', industry: 'Finance' },
+    { name: '	https://www.groupepvcp.com/app/uploads/2022/10/pvcp.svg', industry: 'Hôtellerie et Tourisme' }
   ];
 
   return (
@@ -47,7 +47,8 @@ export const ClientsSection = () => {
               <div className="w-full aspect-square flex items-center justify-center mb-3">
                 <div className="text-center">
                   <div className="text-3xl font-heading font-bold text-muted-foreground/40 group-hover:text-primary transition-colors">
-                    {client.name.split(' ').map(word => word[0]).join('')}
+                  <img src={client.name} alt={client.name} />
+                    
                   </div>
                 </div>
               </div>
