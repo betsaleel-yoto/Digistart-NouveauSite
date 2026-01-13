@@ -53,7 +53,8 @@ export const ServicesSection = () => {
         'Portails de soumission de contrats et appels d\'offres',
         'Plateformes RH pour recrutement terrain',
         'Applications web de gestion de sous-traitance',
-        'Tableaux de bord internes (reporting, opérations)'
+        'Tableaux de bord internes (reporting, opérations)',
+        'Images générée par intelligence artificiel d’agents en tenue et des engins et camions pour site web'
       ]
     },
     {

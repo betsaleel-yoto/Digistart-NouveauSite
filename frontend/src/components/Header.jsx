@@ -58,7 +58,7 @@ export const Header = () => {
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-muted"
+                className="px-4 py-2 text-sm font-medium text-foreground hover:text-[#0A3776] transition-colors rounded-lg hover:bg-[white]"
               >
                 {link.label}
               </button>

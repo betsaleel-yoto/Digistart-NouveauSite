@@ -4,7 +4,7 @@ import { Linkedin, Mail } from 'lucide-react';
 export const TeamSection = () => {
   const team = [
     {
-      name: 'Jean-Baptiste Mukendi',
+      name: 'Betsaleel Yoto',
       role: 'CEO & Strategie Digitale',
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e',
       linkedin: '#',

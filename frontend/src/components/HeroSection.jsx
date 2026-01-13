@@ -44,14 +44,15 @@ export const HeroSection = () => {
             {/* Description - Responsive */}
             <p className="text-base sm:text-lg lg:text-xl text-white mb-6 sm:mb-8 leading-relaxed animate-fade-in-up delay-200 max-w-2xl mx-auto lg:mx-0">
               Dans un marché congolais ultra concurrentiel, les entreprises qui gagnent sont celles qui inspirent confiance dès le premier contact.
+              Nous concevons des solutions digitales sur mesure sites web ultra premium, applications web et applications mobiles pensées pour :
             </p>
 
             {/* Features List - Responsive */}
             <div className="space-y-2 sm:space-y-3 mb-6 sm:mb-8 animate-fade-in-up delay-300">
               {[
-                'Sites web ultra premium',
-                'Applications web sur mesure',
-                'Applications mobiles professionnelles'
+                'renforcer votre image professionnelle',
+                'asseoir votre crédibilité face à vos concurrents',
+                'transformer votre présence digitale en machine d’acquisition automatique de clients'
               ].map((feature, index) => (
                 <div key={index} className="flex items-center gap-2 sm:gap-3 text-white justify-center lg:justify-start">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[hsl(180_70%_55%)] flex-shrink-0" />
