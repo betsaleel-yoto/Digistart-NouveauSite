@@ -164,6 +164,7 @@ export const PricingSection = () => {
             <span className="font-semibold">Besoin d&apos;une solution personnalisée ?</span>
             <br />
             Contactez-nous pour un devis sur mesure adapté à vos besoins spécifiques.
+            
           </p>
         </div>
       </div>
