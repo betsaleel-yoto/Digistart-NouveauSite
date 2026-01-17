@@ -101,7 +101,7 @@ export const HeroSection = () => {
             
             {/* Floating badge - Responsive */}
             <div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 glass-strong rounded-xl p-4 sm:p-6 shadow-large animate-float">
-              <div className="text-2xl sm:text-3xl font-heading font-bold text-gradient-primary mb-1">10 000€</div>
+              <div className="text-2xl sm:text-3xl font-heading font-bold text-gradient-primary mb-1">Solutions</div>
               <div className="text-xs sm:text-sm text-muted-foreground font-medium">Qualité premium garantie</div>
             </div>
           </div>
